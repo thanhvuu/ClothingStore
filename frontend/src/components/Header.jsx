@@ -1,13 +1,25 @@
 const navigationLinks = [
-  'Shop',
-  'New Arrivals',
-  'Nam',
-  'Nữ',
-  'About Us',
-  'Best Seller'
+  { label: 'Shop', type: 'button' },
+  { label: 'New Arrivals', href: '#' },
+  { label: 'Nam', href: '#' },
+  { label: 'Nữ', href: '#' },
+  { label: 'About Us', href: '#' },
+  { label: 'Best Seller', href: '#' }
 ];
 
-const Header = () => {
+const Header = ({ onNavigateHome, onShopClick }) => {
+  const handleLogoClick = () => {
+    if (typeof onNavigateHome === 'function') {
+      onNavigateHome();
+    }
+  };
+
+  const handleShopClick = () => {
+    if (typeof onShopClick === 'function') {
+      onShopClick();
+    }
+  };
+
   return (
     <header className="header">
       <div className="top-bar">
@@ -16,16 +28,27 @@ const Header = () => {
       </div>
       <div className="nav-bar">
         <div className="logo-area">
-          <div className="logo" aria-label="Clothing Store Logo">
+          <button
+            type="button"
+            className="logo"
+            aria-label="Trang chủ Clothing Store"
+            onClick={handleLogoClick}
+          >
             <span className="logo-icon">CS</span>
             <span className="logo-text">logo</span>
-          </div>
+          </button>
         </div>
         <nav className="navigation">
           <ul>
             {navigationLinks.map((link) => (
-              <li key={link}>
-                <a href="#">{link}</a>
+              <li key={link.label}>
+                {link.type === 'button' ? (
+                  <button type="button" className="link-button" onClick={handleShopClick}>
+                    {link.label}
+                  </button>
+                ) : (
+                  <a href={link.href}>{link.label}</a>
+                )}
               </li>
             ))}
           </ul>
