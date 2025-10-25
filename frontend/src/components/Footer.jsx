@@ -45,8 +45,8 @@ const Footer = () => {
         </div>
         <div className="footer-column contact">
           <h3>Liên hệ</h3>
-          <p>Hotline: 0702458798</p>
-          <p>Email: dangnhatsanhtk12h2@gmail.com</p>
+          <p>Hotline: 0123456789</p>
+          <p>Email: dangthanhvu19124@gmail.com</p>
         </div>
       </div>
       <div className="footer-bottom">
