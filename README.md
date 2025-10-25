@@ -1,12 +1,15 @@
-# Clothing Store 
+# ClothingStore Monorepo
 
-Giao diện trang chủ DirtyCoins được dựng lại bằng React và Vite.
+Thư mục này hiện được tách cấu trúc để dễ mở rộng backend và các phân hệ khác trong tương lai.
 
-## Bắt đầu
+- `frontend/`: Mã nguồn ứng dụng Vite + React của cửa hàng DirtyCoins.
+
+Các lệnh phát triển cho frontend:
 
 ```bash
+cd frontend
 npm install
 npm run dev
 ```
 
-Truy cập [http://localhost:5173](http://localhost:5173) để xem giao diện.
+Bạn có thể bổ sung các thư mục `backend/`, `admin/` trong tương lai mà không ảnh hưởng đến mã nguồn frontend.
