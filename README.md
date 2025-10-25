@@ -1,4 +1,4 @@
-# Clothing Store Landing Page
+# Clothing Store 
 
 Giao diện trang chủ DirtyCoins được dựng lại bằng React và Vite.
 
