@@ -1,8 +1,7 @@
-# ClothingStore Monorepo
+# ClothingStore
 
-Thư mục này hiện được tách cấu trúc để dễ mở rộng backend và các phân hệ khác trong tương lai.
 
-- `frontend/`: Mã nguồn ứng dụng Vite + React của cửa hàng DirtyCoins.
+- `frontend/`: Mã nguồn ứng dụng Vite + React của cửa hàng Clothing Store.
 
 Các lệnh phát triển cho frontend:
 
