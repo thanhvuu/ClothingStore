@@ -1,8 +1,8 @@
 const storeLocations = [
   'Chi Nhánh Hồ Chí Minh',
-  '273 Âu Dương Lân, Phường 03, Quận 8, Thành phố Hồ Chí Minh',
-  '45 Tân Đạt, Phường Tân Biên, Thành phố Biên Hòa',
-  '10 Đào Duy Từ, Phường 5, Quận 10, TP. HCM'
+  '273 An Dương Vương, Phường Chợ Quán, TP. HCM',
+  ' 105 Bà Huyện Thanh Quan, Phường Xuân Hòa, TP. HCM',
+  '04 Tôn Đức Thắng, Phường Sài Gòn, TP. HCM'
 ];
 
 const socialLinks = ['Facebook', 'Instagram', 'TikTok', 'Youtube', 'Twitter'];
