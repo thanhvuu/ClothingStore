@@ -1,4 +1,10 @@
-const Hero = () => {
+const Hero = ({ onShopClick }) => {
+  const handleShopNow = () => {
+    if (typeof onShopClick === 'function') {
+      onShopClick();
+    }
+  };
+
   return (
     <section className="hero">
       <div className="hero-content">
@@ -8,8 +14,12 @@ const Hero = () => {
           ICS mang đến phong cách trẻ trung, năng động với cảm hứng từ văn hóa đường phố.
         </p>
         <div className="hero-actions">
-          <button className="primary">MUA NGAY</button>
-          <button className="secondary">XEM LOOKBOOK</button>
+          <button className="primary" type="button" onClick={handleShopNow}>
+            MUA NGAY
+          </button>
+          <button className="secondary" type="button">
+            XEM LOOKBOOK
+          </button>
         </div>
       </div>
     </section>
