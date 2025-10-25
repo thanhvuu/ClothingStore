@@ -3,9 +3,9 @@ import './Header.css';
 
 const NAV_ITEMS = [
   'SHOP',
-  'DRAGON BALL Z',
-  "COLLAB'S",
-  'CONTACT',
+  'NEW ARRIVALS',
+  "NAM",
+  'NỮ',
   'ABOUT US',
   'BEST SELLER'
 ];
@@ -22,8 +22,8 @@ function Header() {
       <div className="navbar">
         <div className="logo" aria-label="DirtyCoins logo">
           <img
-            src="https://res.cloudinary.com/dxjubrqnd/image/upload/v1714647934/dirty-coins-logo-black.svg"
-            alt="DirtyCoins logo"
+            src=""
+            alt="logo"
           />
         </div>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`} aria-label="Main navigation">

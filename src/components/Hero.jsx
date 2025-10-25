@@ -8,7 +8,7 @@ function Hero() {
           <p className="hero-tagline">BST MỚI</p>
           <h1 className="hero-title">Streetwear Lifestyle</h1>
           <p className="hero-subtitle">
-            DirtyCoins mang đến phong cách trẻ trung, năng động với cảm hứng từ văn hoá đường phố.
+            CS mang đến phong cách trẻ trung, năng động với cảm hứng từ văn hoá đường phố.
           </p>
           <div className="hero-actions">
             <a href="#" className="hero-button primary">
